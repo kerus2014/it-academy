@@ -1,1 +1,1 @@
-https://kerus2014.github.io/it-academy/
+https://kerus2014.github.io/it-academy/DIARY/
