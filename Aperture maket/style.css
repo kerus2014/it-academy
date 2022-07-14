@@ -86,7 +86,7 @@ h1{
     align-items: center;
     flex-direction: column;
 }
-.textContainer p {
+.firstblockP {
     width: 580px;
     margin: 0px 0px 14px 0px;
     text-align: center;
@@ -122,4 +122,34 @@ h2{
     padding: 0;
     margin: 0;
     text-align: center;
+}
+.hUnnamed{
+    font-size: 30px;
+    line-height: 30px;
+    margin: 15px 0px 42px 0px;
+    text-align: center;
+    width: auto;
+    color: white;
+}
+.card {
+    width: calc(1200px/2)/2;
+    padding: 0px 8px 0px 16px;
+    height: 600px;
+}
+
+.bckCard1{
+    background-image: url(./assets/image/2block/IMAGE\ \(1\).jpg) ;
+}
+.bckCard2{
+    background-image: url(./assets/image/2block/IMAGE\ \(2\).jpg) ;
+}
+.bckCard3{
+    background-image: url(./assets/image/2block/IMAGE\ \(3\).jpg) ;
+}
+.bckCard4{
+    background-image: url(./assets/image/2block/IMAGE\ \(4\).jpg) ;
+}
+.space{
+    display: flex;
+    justify-content: space-between ;
 }
