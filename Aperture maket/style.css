@@ -9,6 +9,7 @@ body{
     line-height: 20px;
     margin: 0;
     color: white;
+    background: black;
 }
 header {
     position: sticky;
@@ -55,9 +56,12 @@ nav ul li {
     justify-content: space-between;
     padding: 0;
     margin: 0;
+    width: 1200px;
 }
 .firstblock{
     background-image: url(./assets/image/main\ img.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 100%;
     height: 716px;
     display: flex;
@@ -67,7 +71,7 @@ nav ul li {
 }
 h4{
     letter-spacing: 2px;
-    color:#C0C0C0;
+    color:#ffffff;
     line-height: 20px;
     margin: 0;
     padding: 0;
@@ -76,6 +80,11 @@ h4{
     margin-bottom: 1px;
     ;
 }
+
+.firstblock h4{
+    color:#C0C0C0;
+}
+
 h1{
    font-size: 54px;
    line-height: 60px;
@@ -112,7 +121,10 @@ h1{
     background-color: black;
     height: 1558px;
     width: 100%;
-    padding: 120px 136px;
+    padding: 120px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 h2{
     font-size: 40px;
@@ -124,17 +136,20 @@ h2{
     text-align: center;
 }
 .hUnnamed{
-    font-size: 30px;
+    font-size: 23px;
     line-height: 30px;
+    font-weight: 400;
     margin: 15px 0px 42px 0px;
     text-align: center;
     width: auto;
     color: white;
 }
 .card {
-    width: calc(1200px/2)/2;
-    padding: 0px 8px 0px 16px;
+    width: auto;
     height: 600px;
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .bckCard1{
@@ -150,6 +165,184 @@ h2{
     background-image: url(./assets/image/2block/IMAGE\ \(4\).jpg) ;
 }
 .space{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    width: 100%;
+    justify-content: center;
+   
+}
+.cardContainer{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttonRead{
+    height: auto;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    padding: 5px 10px 5px 4px;
+    width: auto;
+    background-color: white;
+    border-radius: 14px;
+    color: black;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.halfblock .buttonRead span{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.circle{
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 100px;
+    margin: 0px 6px 0 0 ;
+}
+.card p {
+    color: #C0C0C0;
+    margin: 9px 0px 0px 0px;
+}
+
+.thirdblock{
     display: flex;
-    justify-content: space-between ;
+    flex-direction: column;
+    height: 600px;
+    justify-content: end;
+    align-items: end;
+    padding: 40px 0px;
+}
+
+.thirdblockIMg{
+    background-image:url(./assets/image/3block/IMAGE\ \(5\).jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.thirdblock span{
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0px 0px 0px 6px;
+}
+
+
+.thirdblockText p {
+    color: #C0C0C0;
+    padding: 0px;
+    width: 300px;
+    margin: 0px
+}
+
+.thirdblockText{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+     flex-direction:column ;
+     align-items: flex-end;
+}
+
+.thirdblock .bottomBlock{
+    padding: 0px 40px 0px 0px;
+}
+
+.fourblock{
+    height: 540px;
+    background-image: URL(./assets/image/4block/IMAGE\ \(6\).jpg) ;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 40px 0px;
+}
+
+.fourblock span{
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0px 0px 0px 6px;
+}
+
+.fourblock .bottomBlock{
+    padding: 0px 40px 0px 0px;
+}
+
+.halfblock{
+    width: 50%;
+    height: 484px;
+}
+
+.textHalfblock{
+    display: flex;
+    flex-direction: column;
+    width: 514px;
+    margin: 123px auto 0px auto;
+
+}
+
+.textHalfblock .buttonRead{
+    width: 152px;
+    margin: 20px 0px 0px 0px;
+}
+
+.halfblock h4{
+    color: #C0C0C0;
+    margin: 0 0 6px 0;
+}
+
+.halfblock h3{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+    margin: 0 0 14px 0;
+}
+
+.halfblock p{
+    margin: 0;
+
+}
+
+.fiveblockIMg{
+    background-image:url(./assets/image/5block/IMAGE\ \(7\).jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.sevenblockIMg{
+    background-image:url(./assets/image/7block/IMAGE\ \(8\).jpg) ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.sixblock{
+    height: 520px;
+    width: 100%;
+    padding: auto;
+    margin: 0px;
+}
+
+.sixblock p{
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.iconsClients{
+    display: flex;
+    width: 1200px;
+    padding: 0 62px;
+    justify-content: space-between;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
