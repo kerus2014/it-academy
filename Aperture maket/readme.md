@@ -1,1 +1,0 @@
-https://kerus2014.github.io/it-academy/Aperture maket/
