@@ -1,0 +1,14 @@
+.container{
+    width: 100%;
+    height: auto;
+    background-image: url(./asssets/img/ramka\ 2.png), url(./asssets/img/ramka\ 4.png),
+     url(./asssets/img/ramka\ 6.png), url(./asssets/img/ramka\ 7.png),
+     url(./asssets/img/ramka\ 3.png), url(./asssets/img/ramka\ 5.png),url(./asssets/img/ramka\ 8.png), url(./asssets/img/ramka\ 9.png);
+    background-position: left top, right top,  bottom left, bottom right, top, bottom, left, right; 
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-x, repeat-y, repeat-y; 
+}
+
+.container__p{
+    padding: 60px;
+}
+
