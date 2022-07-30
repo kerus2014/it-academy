@@ -1,0 +1,122 @@
+*{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+
+body{
+}
+.title{
+    text-transform: uppercase;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+.header{
+
+    width: 100%;
+    background-color: black;
+    padding: 12px;
+}
+    .header__title{
+        
+    }
+
+.main {
+
+}
+        .main__navigation{
+            height: 100%;
+            width: 25%;
+            padding: 32px 38px 0px 38px;
+            /* float: left; */
+            background: rgb(231, 231, 231);
+
+        }
+            
+            .navigation__title{
+                font-weight: 700;
+                margin: 0px 0px 10px -20px;
+                line-height: 32px;
+
+            }
+
+            .navigation__sections{
+                
+            }
+                .sections-item + .sections-item{
+                    margin-top: 8px;
+                }
+
+            .navigation__sections li:last-child{
+                padding-bottom: 32px;
+            }
+
+            .main__content{
+                height: 100%;
+                width: 100%;
+                /* float: right; */
+                /* margin-left: 25%; */
+                padding: 40px;
+                float: right;
+                width: 75%;
+                height: 100%;
+                background: url(./assets/img/ball.jpg);
+                background-size: 100PX;
+                background-repeat: repeat-y;
+                background-position: top right;
+                
+            }
+                .content__title{
+                    font-weight: 700;
+                    font-size: 28px;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding: 0px 0px 30px 0px;
+                }
+
+                .content__photo{
+                    width: 440px;
+                    height: 250px;
+                    background-image: url(./assets/img/buffon.png);
+                    background-size: cover;
+                    float: left;
+                    margin: 6px 30px 15px 0px;
+                }
+
+                .content__text{
+                    text-align: justify;
+                }
+
+                .content__text+.content__text{
+                    margin: 15px 0px 0px 0px;
+                }
+
+   
+
+.footer{
+    width: 100%;
+    padding: 28px;
+    background-color: rgb(0, 0, 0);
+    clear: both;            
+}
+
+a:visited { color: #000000; }
