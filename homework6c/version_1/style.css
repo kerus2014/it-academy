@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0px 20px;
+}
+
+.container__text{
+    font-size: 18px;
+    padding: 2px 0px;
+    text-align: justify;
+}
+
+.container__text_green{
+    color: green;
+}
+
+.container__text_red{
+    font-weight: 700;
+    color: red;
+}
+
+.container__text_blue{
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.container__text_italic{
+    font-style: italic;
+    color: blue;
+    margin-bottom: 20px;
+}
+.ssilka::before{
+    content: url(./extref.png);
+    margin-right: 4px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
