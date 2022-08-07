@@ -1,0 +1,17 @@
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+}
+
+.row__item{
+    cursor: pointer;
+    width: 75px;
+    height:78px;
+    background-image: url(./star0.png);
+}
+
+.row__item:hover~.row__item, .row__item:hover{
+    background-image: url(./star1.png);    
+}
