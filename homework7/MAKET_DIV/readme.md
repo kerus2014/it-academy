@@ -1,1 +1,1 @@
-https://kerus2014.github.io/it-academy/homework5/MAKET_DIV/
+https://kerus2014.github.io/it-academy/homework7/MAKET_DIV/
