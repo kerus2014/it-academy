@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKET_FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <p class="form__title">
+            Для публикации вашей статьи заполните, пожалуйста, следующую форму:
+        </p>
+
+        <div class="form__content">
+
+            <div class="form__subtitle">
+                <p class="subtitle__float">
+                    Название статьи:
+                </p>
+                <input type="text" class="borderless form__text">
+            </div>
+
+            <div class="form__subtitle">
+                <p class=" subtitle__float">
+                    Рубрика:
+                </p>
+                <select name="category" id="" class="borderless select">
+                    <option value="">Программирование</option>
+                    <option value="">Спорт</option>
+                    <option value="">Путешествия</option>
+                    <option value="">Рыбалка</option>
+                </select>
+            </div>
+
+            <div class="form__subtitle">
+                <p class=" subtitle__float">
+                    Публикация:
+                </p>
+                <div>
+                    <div class="radio"><input type="radio" > на сайте</div>
+                    <div class="radio"><input type="radio" > в журнале</div>
+                    <div class="radio"><input type="radio" > на сайте и в журнале</div>
+                </div>
+            </div>
+
+
+            <div class="form__subtitle">
+                <label  for="check1" class=" subtitle__float">Разрешить комментарий:</label>
+                <input type="checkbox" id="check1" checked>
+            </div>
+
+            <div>
+                <p class="form__subtitle subtitle__float">
+                    Текст статьи:
+                </p>
+                <input type="textarea" class="borderless form__textarea">
+            </div>
+
+            <div>
+                <input type="submit" value="Опубликовать" class="form__btn">
+            </div>
+
+        </div>   
+
+    </div>
+
+</body>
+</html>
