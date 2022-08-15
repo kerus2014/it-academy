@@ -469,6 +469,7 @@ html{
     /* width: 370px; */
     height: fit-content;
     align-self: stretch;
+    transition: all 0.5s ease-in-out;
 }
 
 .item__icon{
@@ -534,10 +535,12 @@ html{
     font-size: 18px;
 }
 
-.block__item_center{
-    position: relative;
-    bottom: 20px;
+.block__item_up:hover{
+    /* position: relative;
+    bottom: 20px; */
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+    transform: translateY(-20px);
+     
 }
 
 .reviews{

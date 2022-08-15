@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    align-self: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-weight:700 ;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 3fr 7fr 1fr;
+}
+
+.post-1 {
+    grid-column: 1/3;
+    background-color: blanchedalmond;
+    display: grid;
+  }
+
+  .column__first{
+      background-color: blueviolet ;
+  }
+
+.footer{
+    text-align: center;
+    background-color: cornflowerblue;
+}
