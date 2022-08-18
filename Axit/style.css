@@ -158,9 +158,9 @@ html{
     color: #AB4949;
 }
 
-.menu-item:last-child{
+/* .menu-item:last-child{
     padding-right: 0px;
-}
+} */
 
 .header a{
     text-decoration: none;
@@ -170,6 +170,8 @@ html{
 .face-block{
     width: 100%;
     height:950px;
+    display: flex;
+    align-items:center ;
     background-image: url(./assets/img/face-block/backgr.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -179,7 +181,6 @@ html{
 .face-block__content{
     width: 100%;
     height: fit-content;
-    padding-top: 208px;
     display: flex;
     justify-content: space-between;
     flex-wrap: no-wrap;
@@ -188,7 +189,7 @@ html{
 .face-block__left-column{
     display: flex;
     flex-direction: column;
-    width: 55.8%;
+    width: calc(100% - 39.2% - 40px);
 }
 
 .face-block__right-column{
@@ -214,7 +215,8 @@ html{
     margin-top: 42px;
 }
 
-.face-block__form{
+.face-block__logo{
+    height: 42px;
 }
 
 .form__input{
@@ -237,6 +239,7 @@ html{
 .face-block__subtitle-bold{
     color: #333333;
     text-transform: uppercase;
+    text-align: center;
     margin: 0 auto;
     margin-bottom: 62px;
 }
@@ -304,26 +307,38 @@ html{
 
 .social__item_twitter{
     background-image: url(./assets/icon/main/social-media/twitter_icon.svg);
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .social__item_linkedIn{
     background-image: url(./assets/icon/main/social-media/linkedin_icon.svg);
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .social__item_pinterest{
     background-image: url(./assets/icon/main/social-media/pinterest_icon.svg);
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .social__item_instagram{
     background-image: url(./assets/icon/main/social-media/instagram_icon.svg);
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .social__item_github{
     background-image: url(./assets/icon/main/social-media/github_icon.svg);
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .social__item_rss{
     background-image: url(./assets/icon/main/social-media/rss_icon.svg);
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .features{
@@ -428,7 +443,7 @@ html{
     height: fit-content;
 }
 
-.block__title{
+.block-title{
     margin-top: 54px;
     text-align: center;
     width: 100%;
@@ -438,16 +453,16 @@ html{
     text-transform: uppercase;
 }
 
-.block__line{
+.block-line{
     border: none;
     height: 1px;
     background-color: #EC7979;
-    width: 14.167%;
+    width: 170px;
     margin: 54px auto 40px;
     
 }
 
-.block__subtitle{
+.block-subtitle{
     color: #86878B;
     width: 100%;
     height: fit-content;
@@ -455,18 +470,18 @@ html{
     margin-bottom: 70px;
 }
 
-.block__items{
+.block-items{
     display: flex;
     justify-content: space-between;
     height: fit-content;
     width: 100%;
 }
 
-.block__item{
+.block-item{
     display: flex;
     flex-direction: column;
-    flex: 0 0 30.8%;
-    /* width: 370px; */
+    /* flex: 0 0 30.8%; */
+    width: calc((100% - 60px) / 3);
     height: fit-content;
     align-self: stretch;
     transition: all 0.5s ease-in-out;
@@ -535,7 +550,7 @@ html{
     font-size: 18px;
 }
 
-.block__item_up:hover{
+.block-item_up:hover{
     /* position: relative;
     bottom: 20px; */
     filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
@@ -555,7 +570,7 @@ html{
 
 .item__comment{
     width: 100%;
-    height: 180px;
+    height: fit-content;
     padding: 38px 20px;
     color: #86878B;
     font-family: Raleway;
@@ -612,7 +627,7 @@ html{
     padding: 50px 0px;
 }
 
-.block__line_white{
+.block-line_white{
     background-color: white;
 }
 
@@ -717,4 +732,188 @@ html{
     opacity: 0.5;
     text-align: center;
     margin-top: 28px;
+}
+
+@media (max-width:1232px){
+    .header, .about, .face-block, .social-media, .features, .reviews, .contact, .custom-block, .footer, .pricing{
+        padding-left:16px;
+        padding-right:16px;
+    }
+
+    *{
+        font-size: 16px;
+    }
+
+    .input, .button-1, .button-2, .button-3, .item__text, .item__row{
+        font-size: 16px;
+    }
+
+    .item__row_price{
+        font-size: 36px;
+    }
+
+    .item__row_tarif{
+        font-size: 18px;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .face-block{
+        height: 695px;
+    }
+
+    .title{
+        font-size: 36px;
+    }
+    
+    .face-block__title{
+        margin-top: 40px;
+    }
+
+    .face-block__line{
+        margin-top: 40px;
+    }
+
+    .face-block__text{
+        margin-top: 30px;
+    }
+
+    .face-block__button-1{
+        width: 240px;
+    }
+
+    .subtitle-bold{
+        font-size: 18px;
+    }
+
+    .face-block__logo img{
+        width: 116px;
+        height: 42px;
+    }
+
+    .face-block__line{
+        width: 116px;
+    }
+
+    .social-media__left-side{
+        width: 40.52%;
+    }
+
+    .social-media__right-side{
+        width: calc(100% - 40.52% - 20px);
+    }
+
+    .social-media__text{
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .content__right-side{
+        width: 40.12%;
+    }
+
+    .features__tab-content{
+        height: 450px;
+    }
+
+    .features__text{
+        font-size: 16px;
+        margin-top: 32px;
+    }
+
+    .features__button-3{
+        width: 232px;
+    }
+
+    .block-item{
+        width: calc((100% - 40px) / 3);
+    }
+
+    .face-block span{
+        font-size: 18px;
+    }
+    
+    .block-line{
+        width: 140px;
+    }
+
+    .contact-info__column{
+        width: calc((100% - 20px) / 2);
+    }
+
+    .footer__social{
+        min-width:568px;
+    }
+    .social__item{
+        width: 64px;
+        height: 64px;
+    }
+
+    .button-3, .button-1{
+        width: 240px;
+    }
+
+    .block-line {
+        margin: 46px auto 32px;
+    }
+
+    @media (max-width:880px) {
+        .form__input{
+            width: 100%;
+            padding: 30px 30px 50px 30px;
+            background: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            height: fit-content;
+        } 
+
+        .face-block__input+.face-block__input {
+            margin-top: 28px;
+        }
+
+        .face-block__subtitle-bold{
+            margin-bottom: 40px;
+        }
+
+        .face-block__right-column {
+            width: 45%;
+        }
+
+        .face-block__left-column {
+            width: calc(100% - 45% - 30px);
+        }
+
+        .menu-item {
+            padding: 15px 30px;
+        }
+
+        .contact-info__textarea {
+            height: 230px;
+        }
+
+        .social-media__left-side {
+            width: 40%;
+        }
+
+        .social-media__right-side {
+            width: calc(100% - 40% - 16px);
+        }
+
+        .social__item {
+            width: 54px;
+            height: 54px;
+        }
+
+        .social-media__text{
+            margin-top: 16px;
+        }
+
+        /* .features__text {
+            min-height: 310px;
+            overflow: hidden;
+        } */
+
+    }    
 }
