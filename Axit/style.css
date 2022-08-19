@@ -145,6 +145,22 @@ html{
     
 }
 
+.header__burger{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.header__burger720{
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
 .menu-item{
     padding: 17px 34px;
     list-style-type: none;
@@ -420,7 +436,7 @@ html{
 }
 
 .content__left-side{
-    padding:42px 0px 42px 100px ;
+    padding:42px 20px 42px 100px ;
     width: 58.33%;
 }
 
@@ -858,62 +874,158 @@ html{
     .block-line {
         margin: 46px auto 32px;
     }
+}
 
-    @media (max-width:880px) {
-        .form__input{
-            width: 100%;
-            padding: 30px 30px 50px 30px;
-            background: white;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            height: fit-content;
-        } 
+@media (max-width:880px) {
+    .form__input{
+        width: 100%;
+        padding: 30px 30px 50px 30px;
+        background: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: fit-content;
+    } 
 
-        .face-block__input+.face-block__input {
-            margin-top: 28px;
-        }
+    .face-block__input+.face-block__input {
+        margin-top: 28px;
+    }
 
-        .face-block__subtitle-bold{
-            margin-bottom: 40px;
-        }
+    .face-block__subtitle-bold{
+        margin-bottom: 40px;
+    }
 
-        .face-block__right-column {
-            width: 45%;
-        }
+    .face-block__right-column {
+        width: 45%;
+    }
 
-        .face-block__left-column {
-            width: calc(100% - 45% - 30px);
-        }
+    .face-block__left-column {
+        width: calc(100% - 45% - 30px);
+    }
 
-        .menu-item {
-            padding: 15px 30px;
-        }
+    .menu-item {
+        padding: 15px 30px;
+    }
 
-        .contact-info__textarea {
-            height: 230px;
-        }
+    .contact-info__textarea {
+        height: 230px;
+    }
 
-        .social-media__left-side {
-            width: 40%;
-        }
+    .content__left-side {
+        padding: 42px 20px 42px 42px;
+        width: 58.33%;
+    }
+    .social-media__left-side {
+        width: 40%;
+    }
 
-        .social-media__right-side {
-            width: calc(100% - 40% - 16px);
-        }
+    .social-media__right-side {
+        width: calc(100% - 40% - 16px);
+    }
 
-        .social__item {
-            width: 54px;
-            height: 54px;
-        }
+    .social__item {
+        width: 54px;
+        height: 54px;
+    }
 
-        .social-media__text{
-            margin-top: 16px;
-        }
+    .social-media__text{
+        margin-top: 16px;
+    }
+}
 
-        /* .features__text {
-            min-height: 310px;
-            overflow: hidden;
-        } */
+@media (max-width:720px) {
 
-    }    
+    .header, .about, .face-block, .social-media, .features, .reviews, .contact, .custom-block, .footer, .pricing{
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .header nav{
+        display: none;
+    }
+
+    .header__logo{
+        justify-self: flex-end;
+    }
+
+    .header__burger720{
+        display: flex;
+    }
+
+    .face-block{
+        height: fit-content;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+    }
+
+    .face-block__content {
+        flex-direction: column;
+        text-align: center;
+    
+    }
+
+    .face-block__left-column {
+        width: 100%;
+        align-items: center;
+    }
+
+    .face-block__right-column {
+        width: 100%;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .face-block__form{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .form__input{
+        width: 100%;
+        padding: 30px 50px 76px 50px;
+        background: white;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: fit-content;
+    }
+
+    .social-media__container {
+    flex-direction: column;
+    }
+
+    .social-media__left-side, .social-media__right-side{
+        width: 100%;
+        text-align: center;
+    }
+
+    .social-media__text{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .social__item{
+        width: 56px;
+        height: 56px;
+    }
+
+    /* .social-media__subtitle-bold{
+        margin-top: 41px;
+    } */
+
+    .social-media__text{
+        margin-top: 23px;
+    }
+
+    .social-media__container{
+        padding: 40px 0px !important;
+    }
+
+    .social-media__right-side {
+        margin-top: 32px;
+    }
+
+    .footer__social{
+        min-width:0px;
+    }
+
 }
