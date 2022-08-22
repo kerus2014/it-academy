@@ -17,6 +17,7 @@ body{
     height: 555px;
     background-image: url(./map-of-europe-with-countries-and-borders_47243-1655\ \(1\).png);
     background-size: cover;
+    position: relative;
 }
 
 .city{
@@ -77,7 +78,7 @@ body{
 
 .city-hamburg{
     top:318px;
-    left: 341px;
+    left: 308px;
 }
 
 .cicrle__hamburg:hover .list{
@@ -106,15 +107,15 @@ body{
 
 .city-krakow{
     top:350px;
-    left: 410px;
+    left: 377px;
 }
 .city-turin{
     top:409px;
-    left: 325px;
+    left: 292px;
 }
 .city-madrid{
     top:470px;
-    left: 235px;
+    left: 202px;
 }
 
 @keyframes pulse_1 {
