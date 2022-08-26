@@ -135,7 +135,42 @@ html{
     height: fit-content;
     background-color: black;
     height: 75px;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
 
+.header__menu-adaptiv{
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-color: black;
+    color: white;
+    height:0px;
+    /* top: 75px; */
+    left: 0px;
+    z-index: -1;
+    transition: all 0.5s;
+    opacity: 1;
+    top:75px;
+    overflow: hidden;
+    /* display: none; */
+}
+
+/* .header__menu-adaptiv ul{
+    transition: all 0.5s;
+} */
+
+.menu-item-adaptiv{
+    height: 75px;
+    display: flex;
+    align-items:center;
+    width: 100%;
+    opacity: 0;
+    justify-content: center;
+    transition: all 0.5s;
+    /* position: absolute; */
+    
 }
 
 .header__menu{
@@ -146,20 +181,80 @@ html{
 }
 
 .header__burger{
-    height: 100%;
-    width: fit-content;
-    display: flex;
-    align-items: center;
+    height: 48px;
+    width: 48px;
     display: none;
 }
 
-.header__burger720{
+.header__burger input{
+    display: none;
+}
+
+.header__burger-button{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.burger-line{
+    display: block;
+    position: relative;
+    top:-8px;
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.burger-line::after{
+    content: '';
+    display: block;
+    position: relative;
+    top:16px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+:checked#header__burger-line~.header__burger-button .burger-line{
+    transform: rotate(45deg);
+    top:0px;
+}
+
+:checked#header__burger-line~.header__burger-button .burger-line::after{
+    transform: rotate(-90deg);
+    top:0px;
+}
+
+:checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
+    z-index: 2;
+    height: calc(100vh - 75px);
+    top: 56px;
+    opacity: 1;
+}
+
+:checked#header__burger-line~.header__burger-button .menu-item-adaptiv{
+    height: 75px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    position: static;
+    opacity: 1;
+    
+}
+
+
+/* .header__burger720{
     height: 100%;
     width: fit-content;
     display: flex;
     align-items: center;
     display: none;
-}
+} */
 
 .menu-item{
     padding: 17px 34px;
@@ -954,7 +1049,7 @@ html{
         padding-bottom: 0px;
     }
 
-    .header nav{
+    .header__nav{
         display: none;
     }
 
@@ -962,7 +1057,7 @@ html{
         justify-self: flex-end;
     }
 
-    .header__burger720{
+    .header__burger{
         display: flex;
     }
 
@@ -1163,6 +1258,9 @@ html{
     .features{
         height: 582px;
     }
+    .social-media__text{
+        width: 80%;
+    }
 }
 
 @media (max-width:586px) {
@@ -1174,9 +1272,23 @@ html{
     padding: 30px ;
     
     }
+
+    .social-media__text{
+        width: 90%;
+    }
 }
 
 @media (max-width:480px) {
+    
+    .header, .about, .face-block, .social-media, .features, .reviews, .contact, .custom-block, .footer, .pricing{
+        padding-left:16px;
+        padding-right:16px;
+    }
+
+    .button-1, .button-3{
+        width: 100%;
+    }
+    
     .header__burger720{
         display: none;
     }
@@ -1198,6 +1310,52 @@ html{
     .form__input{
         padding: 30px 30px 50px 30px;
     }
+    .social-media__text{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .social__item {
+        width: 48px;
+        height: 48px;
+    }
+
+    .header__menu-adaptiv{
+        top:56px;
+        
+    }
+
+    :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
+        height: calc(100vh - 56px);
+    }
+
+    .features__tab-content {
+        padding: 20px;
+    }
+
+    .burger-line{
+        top:-6px;
+        width: 24px;
+        height: 2px;
+    }
+    
+    .burger-line::after{
+        top:12px;
+        width: 100%;
+        height: 2px;
+    }
+
+    
+
+}
+
+@media (max-width:400px) {
+
+    .social__item{
+        height: 36px;
+        width: 36px;
+    }
+
 }
 
 @media (max-width:320px) {
@@ -1205,3 +1363,5 @@ html{
         padding: 36px 20px 51px 20px;
     }
 }
+
+

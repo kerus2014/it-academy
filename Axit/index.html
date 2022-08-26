@@ -17,9 +17,26 @@
             <div class="header__logo">
                 <a href=""><img src="./assets/icon/header/logo.svg" alt=""></a>
             </div>
-            <div class="header__burger720"><img src="./assets/icon/header/burger720.svg" alt="burger"></div>
-            <div class="header__burger"><img src="./assets/icon/header/burger.svg" alt="burger"></div>
-            <nav>
+            <div class="header__burger">
+                <input type="checkbox" id="header__burger-line" name="burger" >
+                <label for="header__burger-line" class="header__burger-button">
+                    <div class="burger-line"></div>
+                    <div class="header__menu-adaptiv">
+                        <nav>
+                            <ul>
+                                <li class="menu-item menu-item-adaptiv"><a href="#features">Features</a></li>
+                                <li class="menu-item menu-item-adaptiv"><a href="#about">About</a></li>
+                                <li class="menu-item menu-item-adaptiv"><a href="#pricing">Pricing</a></li>
+                                <li class="menu-item menu-item-adaptiv"><a href="#reviews">Reviews</a></li>
+                                <li class="menu-item menu-item-adaptiv"><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </label>
+                
+            </div>
+            <!-- <div class="header__burger"></div> -->
+            <nav class="header__nav">
                 <ul class="header__menu">
                     <li class="menu-item"><a href="#features">Features</a></li>
                     <li class="menu-item"><a href="#about">About</a></li>
@@ -29,6 +46,7 @@
                 </ul>
             </nav>
         </div>
+        
     </header>
 
     <main class="main">
