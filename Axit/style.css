@@ -231,7 +231,7 @@ html{
 
 :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
     z-index: 2;
-    height: 150vw;
+    height: 150vh;
     top: 56px;
     opacity: 1;
 }
@@ -1122,7 +1122,7 @@ html{
     }
 
     :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
-        height: 150vw;
+        height: 150vh;
         top:75px;
     }
 
@@ -1425,7 +1425,7 @@ html{
     }
 
     :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
-        height: 150vw;
+        height: 150vh;
         top:56px;
     }
 
