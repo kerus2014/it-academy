@@ -143,7 +143,6 @@ html{
 .header__menu-adaptiv{
     position: absolute;
     width: 100%;
-    height: calc(100vh - 75px);
     background-color: black;
     color: white;
     height:0px;
@@ -232,7 +231,7 @@ html{
 
 :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
     z-index: 2;
-    height: calc(100vh - 75px);
+    height: 150vw;
     top: 56px;
     opacity: 1;
 }
@@ -1123,7 +1122,7 @@ html{
     }
 
     :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
-        height: calc(100vh - 75px);
+        height: 150vw;
         top:75px;
     }
 
@@ -1426,7 +1425,7 @@ html{
     }
 
     :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
-        height: calc(100vh - 56px);
+        height: 150vw;
         top:56px;
     }
 
