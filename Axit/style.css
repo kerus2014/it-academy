@@ -990,10 +990,15 @@ html{
 
 @media (max-width:950px) {
     .block-container .block-item{
-        width: 70%;
+        width: calc(70% - 32px);
         margin: 0 auto;
         margin-bottom: 40px;
     }
+
+    .block-container{
+        padding: -16px 0px;
+    }
+
     .item__commentator{
         justify-content: center;
     }
@@ -1001,7 +1006,17 @@ html{
     .item__comment:after {
         left: 50%;
         transform: translateX(-50%);
-    }    
+    }
+    
+    .reviews{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .reviews .block-title, .reviews .block-line, .reviews .block-subtitle{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 
 @media (max-width:880px) {
@@ -1060,7 +1075,16 @@ html{
     }
 
     .block-container .block-item{
-        width: 80%;
+        width: calc(80% - 32px);
+    }
+    .reviews{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .reviews .block-title, .reviews .block-line, .reviews .block-subtitle{
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 
@@ -1185,7 +1209,7 @@ html{
     }
 
     .block-container .block-item{
-        width: 80%;
+        width: calc(80% - 40px);
         max-width: 100%;
     }
 
@@ -1239,6 +1263,16 @@ html{
     .block-title{
         font-size: 28px;
         margin-top: 0px;
+    }
+
+    .reviews{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .reviews .block-title, .reviews .block-line, .reviews .block-subtitle{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .block-subtitle{
@@ -1336,7 +1370,7 @@ html{
     }
 
     .block-container .block-item{
-        width: 100%;
+        width: calc(100% - 40px);
     }
 }
 
@@ -1387,6 +1421,10 @@ html{
         
     }
 
+    .block-container .block-item{
+        width: calc(100% - 32px);
+    }
+
     :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
         height: calc(100vh - 56px);
         top:56px;
@@ -1406,6 +1444,16 @@ html{
         top:12px;
         width: 100%;
         height: 2px;
+    }
+
+    .reviews{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .reviews .block-title, .reviews .block-line, .reviews .block-subtitle{
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     
