@@ -598,6 +598,15 @@ html{
     transition: all 0.5s ease-in-out;
 }
 
+.block-container .block-item{
+    width: auto;
+}
+
+.block-container{
+    width: calc((100% - 60px) / 3);
+    height: fit-content;
+}
+
 .item__icon{
     margin: 0 auto;
 }
@@ -942,6 +951,14 @@ html{
         width: calc((100% - 40px) / 3);
     }
 
+    .block-container{
+        width: calc((100% - 40px) / 3);
+    }
+
+    .block-container .block-item{
+        width: auto;
+    }
+
     .face-block span{
         font-size: 18px;
     }
@@ -969,6 +986,22 @@ html{
     .block-line {
         margin: 46px auto 32px;
     }
+}
+
+@media (max-width:950px) {
+    .block-container .block-item{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .item__commentator{
+        justify-content: center;
+    }
+
+    .item__comment:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }    
 }
 
 @media (max-width:880px) {
@@ -1025,6 +1058,10 @@ html{
     .social-media__text{
         margin-top: 16px;
     }
+
+    .block-container .block-item{
+        width: 80%;
+    }
 }
 
 @media (max-width:720px) {
@@ -1060,6 +1097,12 @@ html{
     .header__burger{
         display: flex;
     }
+
+    :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
+        height: calc(100vh - 75px);
+        top:75px;
+    }
+
 
     .face-block{
         height: fit-content;
@@ -1141,6 +1184,11 @@ html{
         margin-top: 32px;
     }
 
+    .block-container .block-item{
+        width: 80%;
+        max-width: 100%;
+    }
+
     .footer__social{
         min-width:0px;
     }
@@ -1206,6 +1254,10 @@ html{
         flex-direction: column;
     }
 
+    .reviews .block-items{
+        display: block;
+    }
+
     .block-item{
         width: 100%;
         max-width: 448px;
@@ -1214,6 +1266,10 @@ html{
 
     .block-item+.block-item{
         margin-top: 40px;
+    }
+
+    .reviews .block-item+.block-item{
+        margin-top: 0px;
     }
 
     .item__row_price{
@@ -1253,6 +1309,8 @@ html{
         padding-top: 48px;
         padding-bottom: 48px;
     }
+}
+
 
 @media (max-width:698px) {
     .features{
@@ -1275,6 +1333,10 @@ html{
 
     .social-media__text{
         width: 90%;
+    }
+
+    .block-container .block-item{
+        width: 100%;
     }
 }
 
@@ -1327,6 +1389,7 @@ html{
 
     :checked#header__burger-line~.header__burger-button .header__menu-adaptiv{
         height: calc(100vh - 56px);
+        top:56px;
     }
 
     .features__tab-content {
