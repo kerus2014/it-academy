@@ -446,10 +446,15 @@ body.noscroll {
     .projects-item__descriprion {
       font-size: 16px; } }
 
-.project-image__HOLANDRIA-1 {
-  padding-bottom: 100%; }
-.project-image__HOLANDRIA-2 {
-  padding-bottom: 120%; }
+.project-image__image1 {
+  padding-bottom: 115%; }
+.project-image__image2 {
+  padding-bottom: 70%; }
+.project-image__image3 {
+  padding-bottom: 57%; }
+
+.project-2images__item {
+  padding-bottom: 130%; }
 
 .footer .container {
   border-top: 2px solid #E23125; }
@@ -583,3 +588,5 @@ body.noscroll {
     background-image: url(/assets/index/footer/icons/twitter.svg); }
   .footer .social__dribble {
     background-image: url(/assets/index/footer/icons/dribble.svg); }
+
+/*# sourceMappingURL=project_MARIE.css.map */

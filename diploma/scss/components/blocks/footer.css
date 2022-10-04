@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$primaryColor".
-        on line 4 of C:\Users\kerus\Desktop\it-academy\diplomaStage0\scss\components\blocks\footer.scss
+        on line 4 of C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\blocks\footer.scss
 
 1: .footer {
 2:     
@@ -13,7 +13,7 @@ Error: Undefined variable: "$primaryColor".
 9:         display: grid;
 
 Backtrace:
-C:\Users\kerus\Desktop\it-academy\diplomaStage0\scss\components\blocks\footer.scss:4
+C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\blocks\footer.scss:4
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -61,9 +61,10 @@ C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/bas
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:20:in `render'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
@@ -74,4 +75,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primaryColor\".\A         on line 4 of C:\Users\kerus\Desktop\it-academy\diplomaStage0\scss\components\blocks\footer.scss\A \A 1: .footer {\A 2:     \A 3:     .container{\A 4:         border-top: 2px solid $primaryColor;\A 5:     }\A 6: \A 7:     &__columns {\A 8:         width: 100%;\A 9:         display: grid;"; }
+  content: "Error: Undefined variable: \"$primaryColor\".\A         on line 4 of C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\blocks\footer.scss\A \A 1: .footer {\A 2:     \A 3:     .container{\A 4:         border-top: 2px solid $primaryColor;\A 5:     }\A 6: \A 7:     &__columns {\A 8:         width: 100%;\A 9:         display: grid;"; }

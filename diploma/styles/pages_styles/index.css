@@ -243,7 +243,7 @@ body.noscroll {
       margin-top: 20px; } }
 .face-block__image {
   width: 100%;
-  background-image: url(/assets/index/face-block/images/image.jpg);
+  background-image: url(../../assets/index/face-block/images/image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -289,7 +289,7 @@ body.noscroll {
         top: 50px; } }
 
 .about__image {
-  background-image: url(/assets/index/about/images/image.jpg);
+  background-image: url(../../assets/index/about/images/image.jpg);
   background-position: center center;
   background-size: cover;
   height: 550px;
@@ -385,13 +385,13 @@ body.noscroll {
     background-size: 100%;
     overflow: hidden; }
   .services .grid-item__icon_marketing {
-    background-image: url(/assets/index/services/icon/marketing.svg); }
+    background-image: url(../../assets/index/services/icon/marketing.svg); }
   .services .grid-item__icon_creative {
-    background-image: url(/assets/index/services/icon/creative.svg); }
+    background-image: url(../../assets/index/services/icon/creative.svg); }
   .services .grid-item__icon_strategy {
-    background-image: url(/assets/index/services/icon/strategy.svg); }
+    background-image: url(../../assets/index/services/icon/strategy.svg); }
   .services .grid-item__icon_technology {
-    background-image: url(/assets/index/services/icon/technology.svg); }
+    background-image: url(../../assets/index/services/icon/technology.svg); }
   .services .grid-item__title {
     font-family: inter;
     font-weight: 600;
@@ -511,13 +511,13 @@ body.noscroll {
   .image-item:hover:before, .image-item:hover:after {
     opacity: 1; }
   .image-item_cela {
-    background-image: url(/assets/index/featured-works/images/cela.jpg); }
+    background-image: url(../../assets/index/featured-works/images/cela.jpg); }
   .image-item_softy {
-    background-image: url(/assets/index/featured-works/images/softy.jpg); }
+    background-image: url(../../assets/index/featured-works/images/softy.jpg); }
   .image-item_mfk {
-    background-image: url(/assets/index/featured-works/images/mfk.jpg); }
+    background-image: url(../../assets/index/featured-works/images/mfk.jpg); }
   .image-item_holandria {
-    background-image: url(/assets/index/featured-works/images/holandria.jpg); }
+    background-image: url(../../assets/index/featured-works/images/holandria.jpg); }
 
 .feedback__inner {
   display: flex;
@@ -788,3 +788,5 @@ body.noscroll {
     background-image: url(/assets/index/footer/icons/twitter.svg); }
   .footer .social__dribble {
     background-image: url(/assets/index/footer/icons/dribble.svg); }
+
+/*# sourceMappingURL=index.css.map */

@@ -446,14 +446,6 @@ body.noscroll {
     .projects-item__descriprion {
       font-size: 16px; } }
 
-.project-image__image1 {
-  padding-bottom: 50%; }
-.project-image__image2 {
-  padding-bottom: 50%; }
-
-.project-2images__item {
-  padding-bottom: 150%; }
-
 .footer .container {
   border-top: 2px solid #E23125; }
 .footer__columns {
@@ -586,3 +578,5 @@ body.noscroll {
     background-image: url(/assets/index/footer/icons/twitter.svg); }
   .footer .social__dribble {
     background-image: url(/assets/index/footer/icons/dribble.svg); }
+
+/*# sourceMappingURL=project_MFK.css.map */

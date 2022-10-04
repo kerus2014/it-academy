@@ -55,7 +55,7 @@ body{
     }
     &__image {
         width: 100%;
-        background-image: url(/assets/index/face-block/images/image.jpg);
+        background-image: url(../../assets/index/face-block/images/image.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         overflow: hidden;
@@ -115,7 +115,7 @@ body{
     }
 
     &__image {
-        background-image: url(/assets/index/about/images/image.jpg);
+        background-image: url(../../assets/index/about/images/image.jpg);
         background-position: center center;
         background-size: cover;
         height: 550px;
@@ -249,19 +249,19 @@ body{
 		}
 
         &__icon_marketing {
-            background-image: url(/assets/index/services/icon/marketing.svg);
+            background-image: url(../../assets/index/services/icon/marketing.svg);
         }
 
         &__icon_creative {
-            background-image: url(/assets/index/services/icon/creative.svg);
+            background-image: url(../../assets/index/services/icon/creative.svg);
         }
 
         &__icon_strategy {
-            background-image: url(/assets/index/services/icon/strategy.svg);
+            background-image: url(../../assets/index/services/icon/strategy.svg);
         }
 
         &__icon_technology {
-            background-image: url(/assets/index/services/icon/technology.svg);
+            background-image: url(../../assets/index/services/icon/technology.svg);
         }
 		
 		&__title {
@@ -424,16 +424,16 @@ body{
     }
 
     &_cela {
-        background-image: url(/assets/index/featured-works/images/cela.jpg);
+        background-image: url(../../assets/index/featured-works/images/cela.jpg);
     }
     &_softy {
-        background-image: url(/assets/index/featured-works/images/softy.jpg);
+        background-image: url(../../assets/index/featured-works/images/softy.jpg);
     }
     &_mfk {
-        background-image: url(/assets/index/featured-works/images/mfk.jpg);
+        background-image: url(../../assets/index/featured-works/images/mfk.jpg);
     }
     &_holandria {
-        background-image: url(/assets/index/featured-works/images/holandria.jpg);
+        background-image: url(../../assets/index/featured-works/images/holandria.jpg);
     }
 }
 

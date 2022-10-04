@@ -5,7 +5,7 @@
 	"source": "./index.html",
 	"scripts": {
 		"clean": "rimraf dist",
-		"start": "parcel serve src/index.html --open",
+		"start": "parcel serve ./index.html --open",
 		"build": "npm run clean && parcel build --public-url ./ --no-source-maps"
 
 	},

@@ -224,60 +224,108 @@ body.noscroll {
   margin-top: 35px;
   margin-bottom: 35px; }
 
-.first-section__description {
-  text-align: center;
-  max-width: 80%;
-  margin: 0 auto;
-  margin-top: 40px; }
-  @media (max-width: 576px) {
-    .first-section__description {
-      margin-top: 28px; } }
-@media (max-width: 576px) {
-  .first-section .block-subtitle {
-    margin-bottom: 28px; } }
 .first-section__inner {
-  margin-top: 130px; }
-  @media (max-width: 576px) {
-    .first-section__inner {
-      margin-top: 100px; } }
-.first-section__link {
-  font-weight: 700;
-  display: block;
-  width: fit-content;
-  text-decoration: none;
-  margin: 32px auto 0px;
-  position: relative; }
-  .first-section__link::after {
-    content: '';
-    position: absolute;
-    left: 0px;
-    top: 25px;
-    width: 100%;
-    border-bottom: 2px solid #E23125;
-    transition: all 0.5s; }
-  .first-section__link:hover::after {
-    width: 0px; }
+  margin-top: 40px;
+  text-align: center; }
 .first-section__image {
-  margin-top: 130px;
-  margin-bottom: 130px;
-  padding: 0px 0px 100% 0px;
-  position: relative;
-  overflow: hidden; }
+  height: 400px;
+  width: 100%;
+  background-image: url(../../assets/services/images/Rectangle\ 152.jpg);
+  background-position: center;
+  background-size: cover; }
+  @media (max-width: 900px) {
+    .first-section__image {
+      height: 350px; } }
+  @media (max-width: 720px) {
+    .first-section__image {
+      height: 300px; } }
   @media (max-width: 576px) {
     .first-section__image {
+      height: 250px; } }
+.first-section__subtitle {
+  margin-top: 90px;
+  margin-bottom: 40px; }
+  @media (max-width: 720px) {
+    .first-section__subtitle {
       margin-top: 70px; } }
-  .first-section__image img {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover; }
+  @media (max-width: 576px) {
+    .first-section__subtitle {
+      margin-top: 50px;
+      margin-bottom: 20px; } }
+.first-section .title {
+  margin-bottom: 120px; }
+  @media (max-width: 720px) {
+    .first-section .title {
+      margin-bottom: 70px; } }
 
-.block-subtitle {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 32px; }
+.services-list__service {
+  padding-top: 85px;
+  border-top: 2px solid #E23125;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px; }
+  @media (max-width: 900px) {
+    .services-list__service {
+      grid-template-columns: 1fr; } }
+.services-list__service + .services-list__service {
+  margin-top: 100px; }
+.services-list__service-name {
+  display: flex; }
+  .services-list__service-name_reverse {
+    order: 1;
+    justify-content: end; }
+    @media (max-width: 900px) {
+      .services-list__service-name_reverse {
+        order: 0; } }
+.services-list__service-name-inner {
+  width: 70%; }
+  @media (max-width: 900px) {
+    .services-list__service-name-inner {
+      width: 100%;
+      text-align: center; } }
+  .services-list__service-name-inner .block-title {
+    margin-top: 0px; }
+  @media (max-width: 900px) {
+    .services-list__service-name-inner .block-text {
+      width: 80%;
+      text-align: center;
+      margin: 24px auto 35px; } }
+  @media (max-width: 576px) {
+    .services-list__service-name-inner .block-text {
+      width: 100%;
+      text-align: center;
+      margin: 24px auto 35px; } }
+.services-list__service-description {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px; }
+  @media (max-width: 600px) {
+    .services-list__service-description {
+      grid-template-columns: 1fr; } }
+
+.service-description__title {
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: capitalize; }
+.service-description__text {
+  line-height: 24px;
+  text-align: justify; }
+
+.connect__inner {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center; }
+  @media (max-width: 576px) {
+    .connect__inner {
+      padding: 100px 0px; } }
+.connect__title {
+  margin-top: 35px; }
+  @media (max-width: 576px) {
+    .connect__title {
+      margin-top: 20px; } }
+@media (max-width: 576px) {
+  .connect .block-text {
+    margin-top: 20px; } }
 
 .footer .container {
   border-top: 2px solid #E23125; }
@@ -411,3 +459,5 @@ body.noscroll {
     background-image: url(/assets/index/footer/icons/twitter.svg); }
   .footer .social__dribble {
     background-image: url(/assets/index/footer/icons/dribble.svg); }
+
+/*# sourceMappingURL=services.css.map */

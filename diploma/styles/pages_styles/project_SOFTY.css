@@ -446,11 +446,12 @@ body.noscroll {
     .projects-item__descriprion {
       font-size: 16px; } }
 
-.project-2images__item {
-  padding-bottom: 140%; }
-
-.project-image__CELA-3 {
-  padding-bottom: 57%; }
+.project-image__image1 {
+  padding-bottom: 80%; }
+.project-image__image2 {
+  padding-bottom: 150%; }
+.project-image__image3 {
+  padding-bottom: 60%; }
 
 .footer .container {
   border-top: 2px solid #E23125; }
@@ -584,3 +585,5 @@ body.noscroll {
     background-image: url(/assets/index/footer/icons/twitter.svg); }
   .footer .social__dribble {
     background-image: url(/assets/index/footer/icons/dribble.svg); }
+
+/*# sourceMappingURL=project_SOFTY.css.map */
