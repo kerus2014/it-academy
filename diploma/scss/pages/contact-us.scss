@@ -151,11 +151,20 @@ body{
         background: none;
         outline: none;
         width: 100%;
+        
+        &::-webkit-input-placeholder{
+            color: $primaryColor;
+        }
+        &::-moz-placeholder{
+            color: $primaryColor;
+        }
     }
+
     // .block-item__textarea
     &__textarea {
         display: block;
         width: 100%;
+        margin-top: 32px;
         border: none;
         padding: 5px 2px;
         border-bottom: 2px solid $primaryColor;
@@ -163,7 +172,8 @@ body{
         background: none;
         resize: none;
         position: relative;
-        outline: none;
+        outline: none;     
+
     }
 
     &__textarea::before{

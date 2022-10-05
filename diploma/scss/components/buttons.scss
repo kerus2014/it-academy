@@ -2,6 +2,9 @@
     padding: 17px 34px;
     color: $primaryColor;
     text-transform: capitalize;
+    width: fit-content;
+    text-decoration: none;
+    min-width: 150px;
     @media (max-width:720px) {
         display: block;
         max-width: 450px;

@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$primaryColor".
-        on line 7 of C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\fonts.scss
+        on line 7 of C:\Users\kerus\Desktop\it\it-academy\diploma\scss\components\fonts.scss
 
 2: 
 3: *{
@@ -11,7 +11,7 @@ Error: Undefined variable: "$primaryColor".
 8: }
 
 Backtrace:
-C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\fonts.scss:7
+C:\Users\kerus\Desktop\it\it-academy\diploma\scss\components\fonts.scss:7
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primaryColor\".\A         on line 7 of C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\fonts.scss\A \A 2: \A 3: *{\A 4:     font-family: Inter;\A 5:     font-weight: 400;\A 6:     font-size: 16px;\A 7:     color: $primaryColor;\A 8: }"; }
+  content: "Error: Undefined variable: \"$primaryColor\".\A         on line 7 of C:\Users\kerus\Desktop\it\it-academy\diploma\scss\components\fonts.scss\A \A 2: \A 3: *{\A 4:     font-family: Inter;\A 5:     font-weight: 400;\A 6:     font-size: 16px;\A 7:     color: $primaryColor;\A 8: }"; }

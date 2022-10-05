@@ -1,18 +1,18 @@
 /*
 Error: Undefined variable: "$primaryColor".
-        on line 3 of C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\buttons.scss
+        on line 3 of C:\Users\kerus\Desktop\it\it-academy\diploma\scss\components\buttons.scss
 
 1: .button{
 2:     padding: 17px 34px;
 3:     color: $primaryColor;
 4:     text-transform: capitalize;
-5:     @media (max-width:720px) {
-6:         display: block;
-7:         max-width: 450px;
-8:         margin: 0 auto;
+5:     width: fit-content;
+6:     text-decoration: none;
+7:     min-width: 150px;
+8:     @media (max-width:720px) {
 
 Backtrace:
-C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\buttons.scss:3
+C:\Users\kerus\Desktop\it\it-academy\diploma\scss\components\buttons.scss:3
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -45,10 +45,9 @@ C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/bas
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:20:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
@@ -59,4 +58,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primaryColor\".\A         on line 3 of C:\Users\kerus\Desktop\it-academy\homework\diploma\scss\components\buttons.scss\A \A 1: .button{\A 2:     padding: 17px 34px;\A 3:     color: $primaryColor;\A 4:     text-transform: capitalize;\A 5:     @media (max-width:720px) {\A 6:         display: block;\A 7:         max-width: 450px;\A 8:         margin: 0 auto;"; }
+  content: "Error: Undefined variable: \"$primaryColor\".\A         on line 3 of C:\Users\kerus\Desktop\it\it-academy\diploma\scss\components\buttons.scss\A \A 1: .button{\A 2:     padding: 17px 34px;\A 3:     color: $primaryColor;\A 4:     text-transform: capitalize;\A 5:     width: fit-content;\A 6:     text-decoration: none;\A 7:     min-width: 150px;\A 8:     @media (max-width:720px) {"; }

@@ -133,10 +133,10 @@
             margin-top: 35px;
             margin-bottom: 35px;   
         }
-        input::-webkit-input-placeholder{
+        &::-webkit-input-placeholder{
             color: $primaryColor;
         }
-        input::-moz-placeholder{
+        &::-moz-placeholder{
             color: $primaryColor;
         }
     }
@@ -173,7 +173,7 @@
     .social {
         width: 28px;
         height: 28px;
-        background-position: center;
+        background-position: bottom center;
         @media (max-width:820px) {
             grid-template-columns: 1fr 1fr;
         }
@@ -184,22 +184,22 @@
         // margin: 0 auto;
         
         &__linkedin {
-            background-image: url(/assets/index/footer/icons/linkedin.svg);
+            background-image: url(../../assets/index/footer/icons/linkedin.svg);
         }
         
         &__facebook {
-            background-image: url(/assets/index/footer/icons/facebook.svg);
+            background-image: url(../../assets/index/footer/icons/facebook.svg);
         }
         
         &__instagram {
-            background-image: url(/assets/index/footer/icons/instagram.svg);
+            background-image: url(../../assets/index/footer/icons/instagram.svg);
         }
         
         &__twitter {
-            background-image: url(/assets/index/footer/icons/twitter.svg);
+            background-image: url(../../assets/index/footer/icons/twitter.svg);
         }
         
-        &__dribble {background-image: url(/assets/index/footer/icons/dribble.svg);
+        &__dribble {background-image: url(../../assets/index/footer/icons/dribble.svg);
         }
     }
 
