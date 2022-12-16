@@ -9,14 +9,14 @@
   font-family: Inter;
   font-weight: 400;
   font-size: 16px;
-  color: #E23125; }
+  color: black; }
 
 body {
-  background-color: #F9E0E2; }
+  background-color: white; }
 
 .button {
   padding: 17px 34px;
-  color: #E23125;
+  color: black;
   text-transform: capitalize;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -31,7 +31,7 @@ body {
 
 .button-filled {
   padding: 17px 34px;
-  background-color: #E23125;
+  background-color: black;
   border: 0px;
   color: white;
   border-radius: 30px; }
@@ -42,13 +42,13 @@ body {
             box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.25); }
 
 .button-bordered {
-  border: 2px solid #E23125;
+  border: 2px solid black;
   background: none;
   border-radius: 30px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
   .button-bordered:hover {
-    background: #E23125;
+    background: black;
     color: white; }
   .button-bordered:active {
     -webkit-box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.25);
@@ -83,7 +83,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #F9E0E2;
+  background-color: white;
   z-index: 3; }
   @media (max-width: 780px) {
     .header {
@@ -153,7 +153,7 @@ body {
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #E23125;
+    background-color: black;
     margin: 10px auto;
     -webkit-transition: 0.2s;
     transition: 0.2s; }
@@ -172,7 +172,7 @@ body {
     font-weight: 500;
     text-decoration: none;
     padding: 17px 30px;
-    color: #E23125;
+    color: black;
     position: relative;
     -webkit-transition: all 1s;
     transition: all 1s; }
@@ -182,7 +182,7 @@ body {
     left: 30px;
     top: 40px;
     width: 0px;
-    border-bottom: 2px solid #E23125;
+    border-bottom: 2px solid black;
     -webkit-transition: all 0.5s;
     transition: all 0.5s; }
   .header__link:hover::after {
@@ -201,7 +201,7 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: #F9E0E2;
+  background-color: white;
   z-index: 4;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -239,7 +239,7 @@ body.noscroll {
   font-weight: 700;
   text-transform: capitalize;
   text-align: center;
-  color: #E23125; }
+  color: black; }
   @media (max-width: 1000px) {
     .title {
       font-size: 54px; } }
@@ -273,7 +273,7 @@ body.noscroll {
   text-transform: uppercase;
   letter-spacing: 8px;
   font-weight: 700;
-  color: #E23125;
+  color: black;
   line-height: 24px; }
 
 .block-text {
@@ -284,7 +284,7 @@ body.noscroll {
   margin-top: 60px; }
   .project-head__title {
     padding-bottom: 40px;
-    border-bottom: 2px solid #E23125;
+    border-bottom: 2px solid black;
     text-align: left; }
     @media (max-width: 576px) {
       .project-head__title {
@@ -371,7 +371,7 @@ body.noscroll {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    border-bottom: 2px solid #E23125;
+    border-bottom: 2px solid black;
     padding-bottom: 20px; }
   .projects-pagination__previous-project {
     display: -webkit-box;
@@ -396,7 +396,7 @@ body.noscroll {
       left: 0px;
       top: 25px;
       width: 0px;
-      border-bottom: 2px solid #E23125;
+      border-bottom: 2px solid black;
       -webkit-transition: all 0.5s;
       transition: all 0.5s; }
       @media (max-width: 375px) {
@@ -517,7 +517,7 @@ body.noscroll {
     left: 0px;
     top: 25px;
     width: 0px;
-    border-bottom: 2px solid #E23125;
+    border-bottom: 2px solid black;
     -webkit-transition: all 0.5s;
     transition: all 0.5s; }
   .projects-item__title:hover::after {
@@ -535,7 +535,7 @@ body.noscroll {
   padding-bottom: 120%; }
 
 .footer .container {
-  border-top: 2px solid #E23125; }
+  border-top: 2px solid black; }
 .footer__columns {
   width: 100%;
   display: grid;
@@ -603,7 +603,7 @@ body.noscroll {
   left: 0px;
   top: 24px;
   width: 0px;
-  border-bottom: 2px solid #E23125;
+  border-bottom: 2px solid black;
   -webkit-transition: all 0.5s;
   transition: all 0.5s; }
 .footer__link:hover::after {
@@ -625,7 +625,7 @@ body.noscroll {
   width: 100%;
   border: none;
   padding: 5px 2px;
-  border-bottom: 2px solid #E23125;
+  border-bottom: 2px solid black;
   line-height: 24px;
   background: none;
   outline: none;
@@ -635,9 +635,9 @@ body.noscroll {
       margin-top: 35px;
       margin-bottom: 35px; } }
   .footer__input::-webkit-input-placeholder {
-    color: #E23125; }
+    color: black; }
   .footer__input::-moz-placeholder {
-    color: #E23125; }
+    color: black; }
 .footer__social {
   display: -webkit-box;
   display: -ms-flexbox;
